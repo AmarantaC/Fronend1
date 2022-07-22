@@ -1,2 +1,2 @@
-# Fronend1
+# Frontend1
 Proyecto final para el curso de introduccion al frontend
