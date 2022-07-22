@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(121, 121, 121);
+}
+
+/*Cabecera*/
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: black;        
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1140;
+    text-align: center;    
+}
+
+.logo{
+    max-width: 570px;
+    padding: 20px;
+    width: 100%; 
+    margin: auto;
+}
+    
+
+.logo img{
+    width: 100%; 
+    max-width: 220px;
+}
+
+.menu{
+    margin: auto; 
+    max-width: 570px;     
+    display: flex;       
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    margin: 15px;  
+}
+
+.menu a:hover{
+    color:rgb(10, 161, 111);  
+}
+
+@media all and (min-width:769px){
+    .inicio {
+        text-align: justify;
+    }
+}
+/*Fin de Cabecera*/
+
+/*Banner Principal*/
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/bienvenida.png);
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid #2fd35b;
+}
+
+.bienvenida{
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.bienvenida p{
+    font-size: 14px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.bienvenida h2{
+    font-size: 30px;
+    color: white;  
+    padding: 20px 0px;
+    max-width: 250px;
+    width: 100%;
+    background-color: rgba(29, 168, 122, 0.7);
+}
+
+.bienvenida a{
+    text-decoration: none;
+    font-size: 18;
+    color: white;
+    margin-top: 40px;
+    background-color: rgba(21, 156, 55, 0.7);
+    padding: 5px;
+}
+
+.bienvenida a:hover{
+    color:black
+}
+
+/*Fin de Bienvenida*/
+/*Inicio de Productos*/
+
+.productos{
+    background-color: black; 
+}
+
+.productos h1{
+    text-align: center;
+    background-color: #088d2b ;
+    font-size: 24px;
+    padding: 20px;
+    color:white;
+}
+
+
+.productos .tes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.te{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    color:white;
+    max-width: 280px;
+    margin: auto;    
+}
+
+.te img{
+    width: 100%;
+}
+
+.te h3{
+    font-size: 20px;    
+}
+
+/*Fin de Productos*/
+/*Inicio de Footer*/
+
+.center-footer .contenedor{
+    text-align: center;
+    margin: auto;    
+    background-color: #036e1f;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.center-footer .widget{
+    text-align: center;
+    max-width: 270px;
+    margin: auto;
+}
+
+.center-footer h4{
+    font-size: 14px;
+    padding: 20px;
+    color: black;
+}
+
+.center-footer p{
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.bottom-footer p{
+    text-align: right;
+    background-color: black;
+    color: #088d2b;
+    padding: 10px;
+}
